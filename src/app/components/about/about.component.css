@@ -1,0 +1,98 @@
+.nav-div {
+    position: fixed; 
+    overflow: hidden; 
+    width: 100%;
+    margin: 0;
+    z-index: 999;
+}
+
+.about{
+    padding-top: 8%; 
+    height: 100vh;
+}
+
+.heading-div {
+    text-align: center;
+    padding: 50px 0;
+    display: grid;
+    justify-content: center;
+}
+
+.heading {
+    margin: 0;
+    font-weight: 700;
+    font-family: Playfair Display;
+    font-size: 6vh;
+}
+
+.horizontal-line {
+    margin: 20px 0;
+    text-align: center; 
+    border: 2px solid #FF914D;
+    opacity: .8;
+    position: relative;
+    animation-name: line;
+    animation-duration: 4s;
+}
+
+@keyframes line {
+    0% {width: 0;}
+    50% {width: 50%;}
+    70% {width: 25%;}
+    100% {width: 100%;}
+}
+
+.about-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 65%;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 47px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-div, .content-div {
+    height: 50.8vh;
+}
+
+.img-div {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    border: 3px solid #FF914D;
+    height: 23vh;
+    width: 23vh;
+    border-radius: 150px;
+}
+
+.content-div {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    background-color: #ff914db7;
+    padding: 0 5%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+.content-text {
+    margin: 0;
+    font-family: Verdana;
+    font-size: 1.5vh;
+    line-height: 2.5vh;
+}
+
+.cv {
+    margin-top: 30px;
+    padding: 0;
+}

@@ -1,0 +1,97 @@
+.nav-div {
+    position: fixed; 
+    overflow: hidden; 
+    width: 100%; 
+    z-index: 999;
+}
+
+.contact-div {
+    padding-top: 8%; 
+    height: 90vh;
+    background-color: #ff914d2d;
+}
+
+.heading-div {
+    text-align: center;
+    padding: 50px 0;
+    display: grid;
+    justify-content: center;
+}
+
+.heading {
+    margin: 0;
+    font-weight: 700;
+    font-family: Playfair Display;
+    font-size: 6vh;
+}
+
+.horizontal-line {
+    margin: 20px 0;
+    text-align: center; 
+    border: 2px solid #FF914D;
+    opacity: .8;
+    position: relative;
+    animation-name: line;
+    animation-duration: 4s;
+}
+
+@keyframes line {
+    0% {width: 0;}
+    50% {width: 50%;}
+    70% {width: 25%;}
+    100% {width: 100%;}
+}
+
+.input-div {
+    text-align: center;
+}
+
+#name, #email, #message {
+    background-color: white;
+    border: 1px solid;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+
+#name, #email {
+    width: 19%;
+    height: 5vh;
+    padding: 5px 10px;
+}
+
+#name {
+    margin-right: 3%;
+}
+
+#message {
+    width: 41%;
+    height: 10vh;
+    padding: 12px 10px;
+}
+
+.btn-div {
+    margin: 15px 0;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.material-icons {
+    padding-right: 10px;
+}
+
+.f-content {
+    font-size: 15px;
+    padding-top: 2px;
+    margin: 0;
+}
+

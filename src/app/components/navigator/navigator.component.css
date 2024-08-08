@@ -1,0 +1,46 @@
+.navbar {
+    border-bottom: 3px solid #FF914D;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    padding: 0;
+}
+
+.nav-ul {
+    padding: 0;
+    margin: 1px 0;
+    width: 100%;
+}
+
+.logo img {
+    width: 13vh;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-img {
+    display: inline-flex;
+    padding-left: 15vh;
+}
+
+.logo,
+.nav {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-url {
+    float: right;
+    display: flex;
+    padding: 5.8vh 0;
+    margin-right: 15vh;
+}
+
+.nav {
+    padding: 0 3vh;
+    font-size: 1.3pc;
+}
